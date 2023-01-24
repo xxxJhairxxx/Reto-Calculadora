@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="root">
+        <div class="calculadora">
+            <input id="pantalla" type="text" >
+            <button id="C" onclick="limpiar()">C</button><button onclick="numb('/')"  id="divi">/</button><button onclick="numb('*')" id="multi">*</button><button onclick="numb('-')" id="rest">-</button>
+            <button class="numb" onclick="numb(7)">7</button><button onclick="numb(8)" class="numb">8</button><button onclick="numb(9)">9</button><button onclick="numb('+')" id="plus">+</button>
+            <button class="numb" onclick="numb(4)">4</button><button onclick="numb(5)" class="numb">5</button><button onclick="numb(6)">6</button>
+            <button class="numb" onclick="numb(1)">1</button><button onclick="numb(2)" class="numb">2</button><button onclick="numb(3)">3</button><button onclick="operar()" id="igual">=</button>
+            <button class="numb" onclick="numb(0)" id="cero">0</button><button id="point" onclick="numb('.')" class="numb">.</button>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>

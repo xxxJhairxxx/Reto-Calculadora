@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(90deg, #8408aa, #e30976);
+}
+
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.764);
+}
+
+#plus,#divi,#multi,#rest,#C,#igual,#point{
+    background-color: rgba(0, 0, 0, 0.764);
+    color: #fff;
+}
+
+.calculadora{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.394);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    font-size: 200px;
+    padding: 10px;
+    margin: 5% auto;
+
+}
+
+
+
+#pantalla{
+    grid-column: 1 / 5;
+    text-align: right;
+    gap: 20px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: #fff;
+    font-family: 'Farro', sans-serif;
+    border: none;
+}
+
+
+#plus{
+    grid-row: 3/5;
+}
+#igual{
+    grid-row: 5/7;
+}
+
+#cero{
+    grid-column: 2/4;
+}
+
+
